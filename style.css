@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=cookie&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui,  'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html { 
+    scroll-behavior: smooth;
+}
+
+
+:root {
+    --bg-color-1:#ffff;
+    --bg-color-2:#f9f6f0;
+    --grey-color:#rgba(0,0,0,0,20);
+    --heading-color:#2c2c2c;
+    --text-color:#353535;
+    --primary-color:#ed2433;
+    --font-family-1:'system-ui';
+    --font-family-2: 'san-sarif';
+    --nav-items-border-bottom : 1px soild rgba(0,0,0,0,07);
+}
+
+.dark-mode {
+    --bg-color-1:#080b0e;
+    --bg-color-2:#101418;
+    --grey-color:#383737;
+    --heading-color:#ffff;
+    --text-color:#ffff;
+    --heading-color:#ffff;
+    --primary-color:#ed2433;
+    --font-family-1:'system-ui';
+    --font-family-2:'san-sarif';
+    --nav-items-bore
+
+}
