@@ -30,12 +30,62 @@ html {
     --bg-color-1:#080b0e;
     --bg-color-2:#101418;
     --grey-color:#383737;
-    --heading-color:#ffff;
     --text-color:#ffff;
-    --heading-color:#ffff;
+    --heading-color:#ffffcc;
     --primary-color:#ed2433;
     --font-family-1:'system-ui';
     --font-family-2:'san-sarif';
-    --nav-items-bore
+    --nav-items-border-bottom :1px soild rgba(255,255,255,0.07);
 
 }
+
+body{
+    overflow: hidden;
+}
+
+/*Scroll Bar*/
+::-webkit-scrollbar {
+    width: 10px;
+    background: var(--bg-color-2);
+    color: white;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*Defauit Settings */
+
+section {
+    padding : 50px 5rem 35px 5rem;
+    margin-bottom: -1px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+img {
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    vertical-align: middle;
+}
+
+h1{
+    font-size:48px;
+    font-weight: 500;
+    color: var(--heading-color);
+    line-height: 1.2;
+}
+
+
+
