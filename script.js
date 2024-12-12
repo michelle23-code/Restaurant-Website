@@ -206,3 +206,4 @@ $(".blog-carousel").owlCarousel({
     },
   },
 });
+
